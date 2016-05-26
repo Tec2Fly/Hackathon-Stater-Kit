@@ -1,5 +1,5 @@
 ﻿
-.NET Hackathon Starter Kit [![Dependency Status](https://david-dm.org/Tec2Fly/Hackathon-Stater-Kit/status.svg?style=flat)](https://david-dm.org/Tec2Fly/Hackathon-Stater-Kit) [![Build Status](https://travis-ci.org/sahat/hackathon-starter.svg?branch=master)](https://travis-ci.org/sahat/hackathon-starter)
+.NET Hackathon Starter Kit [![Dependency Status](https://david-dm.org/Tec2Fly/Hackathon-Stater-Kit/status.svg?style=flat)](https://david-dm.org/Tec2Fly/Hackathon-Stater-Kit)
 =======================
 
 A boilerplate for **.NET** web applications.
@@ -35,7 +35,6 @@ Features
 - MVC Project Structure
 - Bootstrap 4 + Extra Themes
 - **Account Management**
- - Gravatar
  - Profile Details
  - Change Password
  - Forgot Password
@@ -46,7 +45,6 @@ Features
 Prerequisites
 -------------
 
-- [Node.js 6.0+](http://nodejs.org)
 - Command Line Tools
  - <img src="http://deluge-torrent.org/images/apple-logo.gif" height="17">&nbsp;**Mac OS X:** [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) (or **OS X 10.9+**: `xcode-select --install`)
  - <img src="http://dc942d419843af05523b-ff74ae13537a01be6cfec5927837dcfe.r14.cf1.rackcdn.com/wp-content/uploads/windows-8-50x50.jpg" height="17">&nbsp;**Windows:** [Visual Studio](https://www.visualstudio.com/products/visual-studio-community-vs)
@@ -147,49 +145,6 @@ The same goes for other providers.
 - Sign up for an account.
 - Once logged into the dashboard, expand the link 'show api credentials'
 - Copy your Account Sid and Auth Token
-
-Project Structure
------------------
-
-| Name                               | Description                                                  |
-| ---------------------------------- | ------------------------------------------------------------ |
-| **config**/passport.js             | Passport Local and OAuth strategies, plus login middleware.  |
-| **controllers**/api.js             | Controller for /api route and all api examples.              |
-| **controllers**/contact.js         | Controller for contact form.                                 |
-| **controllers**/home.js            | Controller for home page (index).                            |
-| **controllers**/user.js            | Controller for user account management.                      |
-| **models**/User.js                 | Mongoose schema and model for User.                          |
-| **public**/                        | Static assets (fonts, css, js, img).                         |
-| **public**/**js**/application.js   | Specify client-side JavaScript dependencies.                 |
-| **public**/**js**/main.js          | Place your client-side JavaScript here.                      |
-| **public**/**css**/main.scss       | Main stylesheet for your app.                                |
-| **public/css/themes**/default.scss | Some Bootstrap overrides to make it look prettier.           |
-| **views/account**/                 | Templates for *login, password reset, signup, profile*.      |
-| **views/api**/                     | Templates for API Examples.                                  |
-| **views/partials**/flash.jade      | Error, info and success flash notifications.                 |
-| **views/partials**/header.jade     | Navbar partial template.                                     |
-| **views/partials**/footer.jade     | Footer partial template.                                     |
-| **views**/layout.jade              | Base template.                                               |
-| **views**/home.jade                | Home page template.                                          |
-| .travis.yml                        | [Travis CI](https://travis-ci.org/) integration.             |
-| .env.example                       | Your API keys, tokens, passwords and database URI.           |
-| app.js                             | The main application file.                                   |
-| package.json                       | NPM dependencies.                                            |
-
-
-List of Packages
-----------------
-
-| Package                         | Description                                                           |
-| ------------------------------- | --------------------------------------------------------------------- |
-| async                           | Utility library that provides asynchronous control flow.              |
-| bcrypt-nodejs                   | Library for hashing and salting user passwords.                       |
-| bitgo                           | Multi-sig Bitcoin wallet API.                                         |
-| cheerio                         | Scrape web pages using jQuery-style syntax.                           |
-| clockwork                       | Clockwork SMS API library.                                            |
-| connect-mongo                   | MongoDB session store for Express.                                    |
-| dotenv                          | Loads environment variables from .env file.                                                |
-| express                         | Node.js web framework.                                                |
 
 
 Useful Tools and Resources

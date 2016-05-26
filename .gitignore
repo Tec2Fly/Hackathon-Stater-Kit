@@ -4,3 +4,8 @@
 /AppBackend/node_modules
 /AppBackend/obj/Debug/net461
 /packages
+/App Solution/.vs/App Solution/v14
+/App Solution/AppClient/AppClient/obj/Debug
+/App Solution/AppClient/AppClient.Droid/obj/Debug
+/App Solution/AppClient/AppClient.iOS/obj/iPhone/Debug
+/App Solution/packages
